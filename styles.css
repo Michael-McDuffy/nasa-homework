@@ -1,7 +1,60 @@
+
 body {
-    background-color: grey;
+    background-color: white;
     font-family: 'Libre Baskerville', serif;
 }
+
 header {
     background-color: black;
+    color: white;
+    border: 5px solid purple;
+    display: flex;
+    justify-content: center;
+    font-size: 200%;
+    margin: 5px;
+    width: 850px;
+    height: 450px;
+}
+main {display: flex;
+flex-direction: row;
+justify-content: space-around;
+font-size: 150%;
+border: 5px solid blue;
+margin: 5px;
+width: 850px;
+height: 324px;
+min-width: 450px;
+}
+.redborder {
+    border: 5px solid black;
+}
+.greenborder {
+    border: 5px solid black;
+}
+.blackborder {
+    border: 5px solid black;
+}
+div.box
+
+div.row2 {
+    border: red 2px solid;
+    display: flex;
+    flex-direction: row;
+}
+.smalltext {
+    font-size: 75%;
+}
+.smalltext2 {
+    font-size: 50%;
+}
+.enternamehere {
+    background-color: lightgrey;
+    font-size: 75%;
+    color: lightgrey;
+}
+.send {
+    background-color: black;
+    font-size: 50%;
+    color: white;
+    width: 40px;
 }
